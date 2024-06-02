@@ -19,7 +19,7 @@ function Xlogin() {
     if (username === "user" && password === "password") {
       setMessage(`Welcome, ${username}!`);
     } else {
-      setError("Invalid username & password");
+      setError("Invalid username or password");
     }
   };
   return (
